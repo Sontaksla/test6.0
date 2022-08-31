@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace test6._0.Models
 {
     [AttributeUsage(AttributeTargets.Method)]
-    public class HttpBaseAttribute : Attribute
+    public abstract class HttpBaseAttribute : Attribute
     {
         public HttpBaseAttribute() : base()
         {
